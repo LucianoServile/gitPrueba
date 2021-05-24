@@ -1,0 +1,185 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 575.98px) { 
+
+	.footer{
+		background-color: red;
+	}
+
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+	.footer{
+		background-color: blue;
+	}
+
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+
+	.footer{
+		background-color: yellow;
+	}
+
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+
+	.footer{
+		background-color: green;
+	}
+
+}
+
+/* Extra large devices (large desktops)
+ No media query since the extra-large breakpoint has no upper bound on its width*/
+
+.row{
+	background-color: #1A1A1A;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.top p{
+	color: white;
+	padding-top: 80px;
+	padding-bottom: 10px;
+}
+
+.navbar-collapse button{
+	background-color: #303030;
+	width: 100%;
+	border: none;
+	color: white;
+}
+
+.menuPrincipal{
+	background-color: #1A1A1A;
+}
+
+.btn-group a{
+	background: #303030;
+	border: none;
+	color: white;
+	padding: 20px;
+	width: 200px;
+}
+
+.btn-group a:hover{
+	background: #646464;
+	border: none;
+	color: white;
+	padding: 20px;
+	width: 200px;
+}
+
+.telefono{
+	background-color: #303030;
+	color: white;
+	margin-top: -20px;
+	padding-top: 50px;
+}
+
+.telefono h2{
+	text-align: center;
+}
+
+.separador{
+	background-color: #303030;
+}
+
+.separador hr{
+	background-color: white;
+}
+
+.platillosEspeciales{
+	background-color: #303030;
+	color: white;
+}
+
+.platillosEspeciales h2{
+	text-align: center;
+}
+
+#carouselExampleCaptions{
+	height: auto;
+}
+
+.carousel-inner{
+	height: auto;
+}
+
+.mb-3{
+	width: 80%; 
+	margin-left: 200px;
+}
+
+.sobrenosotros{
+	background-color: #303030;
+	color: white;
+	padding-bottom: 100px;
+}
+
+.sobrenosotros h2{
+	text-align: center;
+}
+
+.col{
+	margin-left: 20px;
+	text-align: center;
+}
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+#inputComentary{
+	height: 100px;
+}
+
+.topcentro{
+	text-align: center;
+}
+
+.newsletter input{
+	margin-right: 10px;
+}
+
+.newsletter button{
+	border: none;
+	background-color: grey;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.footer{ 
+	/*
+  position:absolute; 
+  bottom:0; 
+  width:100%; 
+  height:auto; 
+  */
+  background-color: #0E0E0E;
+}
+
+.footer p{
+	color: white;
+	text-align: left;
+}
